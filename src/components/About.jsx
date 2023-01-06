@@ -11,25 +11,24 @@ const About = () => {
             </p>
           </div>
           <div></div>
+        </div>
+        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
+          <div className="sm:text-right text-4xl font-bold">
+            <p>Hi, I'm Pratham, nice to meet you. Please take a look around.</p>
           </div>
-          <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-            <div className="sm:text-right text-4xl font-bold">
-              <p>
-                Hi, I'm Pratham, nice to meet you. Please take a look around.
-              </p>
-            </div>
-            <div>
-              <p>
-                Currently, I am doing a Bachelor of Computer Information Systems
-                at the University of the Fraser Valley. And hands-on exercises
-                have been my priority while learning from course materials with
-                remarkable accuracy. With the help of different projects, I have been advancing my skills in
-                HTML/CSS/JavaScript, react, Advanced Java, MySQL.
-              </p>
-            </div>
+          <div>
+            <p>
+              Currently, I am doing a Bachelor of Computer Information Systems
+              at the University of the Fraser Valley. And hands-on exercises
+              have been my priority while learning from course materials with
+              remarkable accuracy. With the help of different projects, I have
+              been advancing my skills in HTML/CSS/JavaScript, react, Advanced
+              Java, MySQL.
+            </p>
           </div>
         </div>
       </div>
+    </div>
   );
 };
 
