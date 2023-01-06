@@ -7,8 +7,9 @@ import {
   FaFacebook,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
+import { Document } from 'react-pdf';
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from "../assets/Github.png";
+import Logo from "../assets/Logo.png";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -18,7 +19,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <img src={Logo} alt="Logo Image" style={{ width: "50px" }} />
+        <img className = "rounded-full" src={Logo} alt="Logo Image" style={{width: "50px", height: "50px"}} />
       </div>
 
       {/* Menus */}
@@ -96,8 +97,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="w-full justify-between flex items-center text-gray-300"
-              href="/"
-            >
+              href="https://www.linkedin.com/in/pratham-pachchigar">
               Linkdin
               <FaLinkedin size={30} />
             </a>
@@ -105,7 +105,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
               className="w-full justify-between flex items-center text-gray-300"
-              href="/"
+              href="https://github.com/Pratham-irl"
             >
               Github
               <FaGithub size={30} />
@@ -114,7 +114,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
               className="w-full justify-between flex items-center text-gray-300"
-              href="/"
+              href="mailto:pratham.pachchigar@student.ufv.ca"
             >
               Email
               <HiOutlineMail size={30} />
@@ -122,10 +122,9 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
-              className="w-full justify-between flex items-center text-gray-300"
-              href="/"
-            >
-              Resume
+              className="w-full justify-between flex items-center text-gray-300">
+                
+                  Resume
               <BsFillPersonLinesFill size={30} />
             </a>
           </li>
